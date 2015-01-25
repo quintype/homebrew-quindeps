@@ -2,7 +2,7 @@ require "formula"
 
 class Quindeps < Formula
   homepage "http://www.quintype.com"
-  url "https://github.com/gja/quindeps/tarball/master"
+  url "https://github.com/quintype/quindeps/tarball/master"
   version "0.1-1"
 
   depends_on "rbenv"
