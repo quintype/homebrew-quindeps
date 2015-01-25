@@ -6,7 +6,7 @@ class Quindeps < Formula
   version "0.1"
 
   depends_on "rbenv"
-  depends_on "postgres"
+  depends_on "homebrew/versions/postgres93"
 
   def install
     bin.install "quindeps"
